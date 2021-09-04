@@ -1,0 +1,30 @@
+{
+	"name": "betterdiscordplugins",
+	"version": "1.0.0",
+	"description": "Some various plugins for BetterDiscord",
+	"scripts": {
+		"dev": "webpack --mode development --config bundler/webpack.config.js --watch",
+		"build": "webpack --mode production --config bundler/webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/caburum/BetterDiscordPlugins.git"
+	},
+	"keywords": [
+		"discord",
+		"betterdiscord"
+	],
+	"author": "Calum Dingwall (https://github.com/caburum)",
+	"license": "SEE LICENSE IN LICENSE.MD",
+	"bugs": {
+		"url": "https://github.com/caburum/BetterDiscordPlugins/issues"
+	},
+	"homepage": "https://github.com/caburum/BetterDiscordPlugins#readme",
+	"devDependencies": {
+		"raw-loader": "^4.0.2",
+		"template-file": "^5.1.0",
+		"webpack": "^5.52.0",
+		"webpack-cli": "^4.8.0",
+		"webpack-sources": "^3.2.0"
+	}
+}
